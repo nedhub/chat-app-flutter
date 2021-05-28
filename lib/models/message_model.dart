@@ -22,17 +22,24 @@ final User currentUser =
     User(id: 0, name: 'Current User', imageUrl: 'assets/images/greg.jpg');
 
 // USERS
-final User greg = User(id: 1, name: 'Greg', imageUrl: 'assets/images/greg.jpg');
-final User james =
-    User(id: 2, name: 'James', imageUrl: 'assets/images/james.jpg');
-final User john = User(id: 3, name: 'John', imageUrl: 'assets/images/john.jpg');
+final User greg = User(
+    id: 1,
+    name: 'User_1',
+    imageUrl: 'assets/images/animoji-alien-emojipedia.gif');
+final User james = User(
+    id: 2,
+    name: 'User_2',
+    imageUrl: 'assets/images/animoji-poop-from-iphone-as-gif.gif');
+final User john =
+    User(id: 3, name: 'User_3', imageUrl: 'assets/images/tenor.gif');
 final User olivia =
-    User(id: 4, name: 'Olivia', imageUrl: 'assets/images/olivia.jpg');
-final User sam = User(id: 5, name: 'Sam', imageUrl: 'assets/images/sam.jpg');
+    User(id: 4, name: 'User_4', imageUrl: 'assets/images/fox.gif');
+final User sam =
+    User(id: 5, name: 'User_5', imageUrl: 'assets/images/chicken.gif');
 final User sophia =
-    User(id: 6, name: 'Sophia', imageUrl: 'assets/images/sophia.jpg');
+    User(id: 6, name: 'User_6', imageUrl: 'assets/images/man.gif');
 final User steven =
-    User(id: 7, name: 'Steven', imageUrl: 'assets/images/steven.jpg');
+    User(id: 7, name: 'User_7', imageUrl: 'assets/images/unicorn.gif');
 
 // FAVORITE CONTACTS
 List<User> favorites = [sam, steven, olivia, john, greg];
